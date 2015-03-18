@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>临时指向</title>
+    <title>临时指向：雷球</title>
 
     <style>
      .templink {
-       width: 100%;
-       height: 100%;
+       width: 1%;
+       height: 1%;
        display: block;
        position: fixed;
        z-index: 100;
@@ -23,6 +23,78 @@
   </head>
   
   <body>
+<style type="text/css">
+/* :::: 有必要时自己定义 :::: */
+#start {
+  position: relative;
+  /*padding-bottom: @spcLrg;*/
+
+  border-width: 2px 0;
+}
+#start #toc {
+  margin-top: 10px;
+}
+#start #toc li a {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 10px 0;
+  /*padding-left: @spcLrg;*/
+
+  /*padding-right: @spcLrg;*/
+
+  /*padding: 0;*/
+
+  /*margin: @spcMed @spcSml;*/
+
+  /*font-weight: bold;*/
+
+  color: #000000;
+}
+#start #toc li a.bolt {
+  /*color: @linkColor;*/
+
+  background: none;
+  /*color: @black;*/
+
+}
+#start #canvasLightning {
+  position: absolute;
+  outline: none;
+  /*z-index: -1;*/
+
+}
+
+</style>
+
+<div class="lightn-zone">
+    <div id="start" class="row">
+      <div class="span12">
+        <canvas id="canvasLightning"></canvas>
+      </div>
+      <div class="span4">
+        <ul id="toc">
+          <li><a href="#schematic-ipsum">需要jquery</a></li>
+          <li><a href="#calcoolator">需要processing</a></li>
+          <li><a href="#rubes">需要lightning</a></li>
+          <li><a href="#virion">移动到雷球</a></li>
+          <li><a href="#crosswords">会跳动不让碰</a></li>
+          <li><a href="#donner-party">按住鼠标</a></li>
+          <li><a href="#best-of-brown">可放电</a></li>
+          <li><a href="#illusions">连接导航</a></li>
+          <li><a href="#writing">可放电</a></li>
+        </ul>
+      </div>
+    </div>          
+ </div>         
+ <script src="js/jquery.min.js"></script>
+ <script src="js/processing-1.3.6.min.js"></script>
+ <script src="js/lightning.js"></script>
     
     <iframe class="templink" src="http://shop115364028.taobao.com"></iframe>
     
